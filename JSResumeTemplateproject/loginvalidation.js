@@ -39,7 +39,7 @@ var userName = document.getElementById('Username');
                         alert("Password incorrect");
                     }
                 }else{
-                    alert("Please check the username");
+                    alert("Invalid Username/Password");
                 }
             });
         }else{
