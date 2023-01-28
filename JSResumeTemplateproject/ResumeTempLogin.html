@@ -12,7 +12,7 @@
 <body>
     <div class="login">
         <h1>Resume Template Login</h1>
-        <form >
+        <form class= "login_btn">
             <div class="inputs">
                 <div>
                     <input type="text" id="Username" name="Username" placeholder="User Name" required>
@@ -22,28 +22,18 @@
                 </div>
             </div>
                 <div class="btn">
-                <input id= "login_btn" type="submit" value="Login" onclick="validate(Event)"/>
+                <input  type="submit" value="Login" />
                 </div>
         </form>
     </div>
-    <script>
-        const Credentials = [
-    {
-    username : "John Doe",
-    password : "John2023!@#" 
-  },
-  {
-    username : "Smitha Singh",
-    password : "Smit2023!@#" 
-  },
-  {
-    username : "Rahul Rana",
-    password : "Rahul2023!@#" 
-  }
-]
-  
-  window.localStorage.setItem("Credentials", JSON.stringify(Credentials));
-  console.log(Credentials);
+    <script  >
+      document.querySelector(".login_btn").addEventListener("submit", function(e){
+            // Prevent the form from submitting
+            e.preventDefault();
+            // validated() will be called when the form is submitted
+            validate();
+        });
     </script>
+    <script src="loginvalidation.js"></script>
 </body>
 </html>
