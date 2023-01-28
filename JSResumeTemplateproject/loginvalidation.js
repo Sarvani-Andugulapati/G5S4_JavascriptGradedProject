@@ -32,16 +32,17 @@ var userName = document.getElementById('Username');
         if(storedData.length!==0){
             const userdetails = storedData.find((user)=>{
                 if(userName.value === user.username){
-                    if(userPw.value === userdetails.password){
-                        alert("You are succesfully logged in");
-                        window.location.href = "./ResumeCreation.html";
-                    }else{
-                        alert("Password incorrect");
-                    }
+                    return user;
                 }else{
                     alert("Invalid Username/Password");
                 }
             });
+            if(userPw.value === userdetails.password){
+                alert("You are succesfully logged in");
+                window.location.href = "./ResumeCreation.html";
+            }else{
+                alert("Password incorrect");
+            }
         }else{
             alert("User details donot exist");
         }
