@@ -27,8 +27,13 @@ body {
 }
 .resumesheader .AppliedForPosition {
     margin-top: 30px;
-    font-size: 12px;
+    font-size: 14px;
     padding-bottom: 30px;
+    font-weight: bold;
+}
+.resumesheader .ApplicantName{
+    font-size: 40px;
+    font-weight: bolder;
 }
 
 .container {
@@ -44,6 +49,35 @@ body {
     right: 100px;
     position: absolute;
 }
+.profilebody{
+    display:flex;
+}
+.BulkSection{
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 10px;
+}
+.WorkExperienceSection{
+    font-weight: bold;
+    font-size: 18px;
+}
+.ProjectsSection{
+    font-weight: bold;
+    font-size: 18px;
+}
+.EducationSection{
+    font-weight: bold;
+    font-size: 18px;
+}
+.InternshipSection{
+    font-weight: bold;
+    font-size: 18px;
+}
+.AchievementsSection{
+    font-weight: bold;
+    font-size: 18px;
+}
+
 .PersonalInformationBox{
     background-color: rgb(242, 218, 212);
     width: 150px;
