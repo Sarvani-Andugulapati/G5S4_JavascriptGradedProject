@@ -1,0 +1,44 @@
+body {
+    align-items: center;
+    text-align: center;
+}
+.searchcriteria {
+    margin-top: 10px;
+    text-align: center;
+}
+.searchcriteria input {
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 250px;
+}
+.resumesheader{
+    border-color: black;
+    border-radius: 2px;
+    box-shadow: 3px 3px 3px 3px grey;
+    margin: 50px;
+    background-color: rgb(157, 248, 217);
+    justify-content: center;
+}
+.resumesheader .ApplicantName{
+    font-size: 24px;
+    padding-top: 20px;
+}
+.resumesheader .AppliedForPosition {
+    margin-top: 30px;
+    font-size: 12px;
+    padding-bottom: 30px;
+}
+
+.container {
+    position: relative;
+    
+}
+.container img {
+    background: url('default profilepic.jpeg');
+    background-position: -25px -15px;
+    width: 75px;
+    height: 75px;
+    top: 15px;
+    right: 100px;
+    position: absolute;
+}
