@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <script src="./ResumeScript_Aritra.js" defer></script>
+    
     <meta charset="UTF-8">
     <title>ResumeLogin</title>
     <link rel="stylesheet" type="text/css" href="ResumeScript_Anitra.css">
@@ -11,9 +11,10 @@
 <body>
     <div class="searchcriteria">
         <button class="Previous">Previous</button>
-        <input type="text" id="search" placeholder="search for keywords to filter the resumes" />
+        <input type="text" class="search" placeholder="search for keywords to filter the resumes" />
         <button class="Next">Next</button>
     </div>
+    <div class="resume">
     <div class="resumesheader">
         <div class="container">
             <img id="profileimage" src="#" />
@@ -21,8 +22,9 @@
         <div id="ApplicantName" class="ApplicantName">name</div>
         <div id="AppliedForPosition" class="AppliedForPosition">Default position</div>
     </div>
+
     <div id="PersonalInformationBox" class="PersonalInformationBox">
-        <br><br><br>
+        <br>
         <div id="PersonalInformationHeader" class="PersonalInformationHeader">Personal Information</div>
         <div id="ApplicantPhoneNumber" class="ApplicantPhoneNumber"></div>
         <div id="ApplicantEmail" class="ApplicantEmail"></div>
@@ -65,11 +67,12 @@
         <div id="AchievementsSection" class="AchievementsSection">Achievements</div>
         <div id="ApplicantAchievement" class="ApplicantAchievement"></div>
     </div>
-
+</div>
 
     <br><br><br>
     <div>Page Number</div>
     <div id="ProfileNumber" class="ProfileNumber"></div>
+    <script src="./ResumeScript_Aritra.js" defer></script>
 </body>
 
 </html>
