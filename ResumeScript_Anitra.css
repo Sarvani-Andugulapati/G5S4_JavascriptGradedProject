@@ -52,6 +52,10 @@ body {
 .profilebody{
     display:flex;
 }
+.personalinfo{
+    text-align: right;
+    margin-right: 10px;
+}
 .BulkSection{
     margin-top: 10px;
     text-align: left;
@@ -60,6 +64,31 @@ body {
 .WorkExperienceSection{
     font-weight: bold;
     font-size: 18px;
+}
+.expsection{
+    padding-left: 30px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.projectsec{
+    padding-left: 30px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.Educationsec{
+    padding-left: 30px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.Internsec{
+    padding-left: 30px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.achsec{
+    padding-left: 30px;
+    font-weight: bold;
+    font-size: 12px;
 }
 .ProjectsSection{
     font-weight: bold;
