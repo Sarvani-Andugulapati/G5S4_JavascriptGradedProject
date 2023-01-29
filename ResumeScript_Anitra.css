@@ -11,12 +11,14 @@ body {
     margin-left: 50px;
     width: 250px;
 }
-.resumesheader{
+.resume{
     border-color: black;
     border-radius: 2px;
     box-shadow: 3px 3px 3px 3px grey;
     margin: 50px;
-    background-color: rgb(157, 248, 217);
+}
+.resumesheader{
+    background-color: rgb(192, 249, 230);
     justify-content: center;
 }
 .resumesheader .ApplicantName{
@@ -41,4 +43,32 @@ body {
     top: 15px;
     right: 100px;
     position: absolute;
+}
+.PersonalInformationBox{
+    background-color: rgb(242, 218, 212);
+    width: 150px;
+    margin-left: 15px;
+    margin-top: 15px;
+    height: fit-content;
+}
+.PersonalInformationHeader{
+    background-color: rgb(195, 194, 194);
+    width: 130px;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.TechnicalSkillsHeader{
+    background-color: rgb(195, 194, 194);
+    width: 130px;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.HobbiesHeader{
+    background-color: rgb(195, 194, 194);
+    width: 130px;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 10px;
 }
