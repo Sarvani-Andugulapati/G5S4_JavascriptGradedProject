@@ -61,6 +61,10 @@ body {
     text-align: left;
     margin-left: 10px;
 }
+.BulkSection span{
+    font-size: 12px;
+    font-weight: lighter;
+}
 .WorkExperienceSection{
     font-weight: bold;
     font-size: 18px;
